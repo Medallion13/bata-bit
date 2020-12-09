@@ -28,3 +28,105 @@ html {
   font-size: 62.5%;
   font-family: 'DM Sans', sans-serif;
 }
+
+header {
+  /* 1. Posicionamiento */
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* 2. Modelo de caja (Box model) */
+  width: 100%;
+  min-width: 320px;
+  height: 334px;
+  text-align: center;
+
+  /* 4. */
+  background: linear-gradient(207.8deg, #201e1c 16.69%, #f7931a 100%);
+}
+
+header img {
+  /* 1. Posicionamiento */
+  align-self: center;
+  /* 2. Modelo de caja (Box model) */
+  width: 150px;
+  height: 24px;
+  margin-top: 60px;
+}
+
+.header--title-container {
+  /* 1. Posicionamiento */
+  text-align: center;
+  align-self: center;
+  /* 2. Modelo de caja (Box model) */
+  width: 90%;
+  min-width: 288px;
+  max-width: 900px;
+  height: 218px;
+  margin-top: 40px;
+}
+
+.header--title-container h1 {
+  /* 1. Posicionamiento */
+  /* 2. Modelo de caja (Box model) */
+  /* 3. Tipografía */
+  font-size: 2.4rem;
+  font-weight: bold;
+  line-height: 2.6rem;
+  /* 4. Visuales (diseño) */
+  color: var(--just-white);
+  /* 5. Otros */
+}
+
+.header--title-container p {
+  /* 1. Posicionamiento */
+  /* 2. Modelo de caja (Box model) */
+  margin-top: 25px;
+  /* 3. Tipografía */
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 1.8rem;
+  /* 4. Visuales (diseño) */
+  color: var(--soft-orange);
+  /* 5. Otros */
+}
+.header--title-container .header--button {
+  /* 1. Posicionamiento */
+  position: absolute;
+  left: calc(50% - 118px);
+  top: 270px;
+  /* 2. Modelo de caja (Box model) */
+  display: block;
+  margin-top: 35px;
+  padding: 15px;
+  width: 229px;
+  height: 48px;
+  /* 3. Tipografía */
+  font-size: 1.4rem;
+  font-weight: bold;
+  /* 4. Visuales (diseño) */
+  background-color: var(--off-white);
+  /* sombras */
+  box-shadow: 0px 4px 8px rgba(89, 73, 30, 0.16);
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  color: var(--black);
+  /* 5. Otros */
+}
+
+.header--button span {
+  /* 1. Posicionamiento */
+  display: inline-block;
+  width: 13px;
+  height: 8px;
+  margin-left: 10px;
+  background-image: url('./assets/icons/down-arrow.svg');
+  /* 2. Modelo de caja (Box model) */
+
+  /* 3. Tipografía */
+
+  /* 4. Visuales (diseño) */
+
+  /* 5. Otros */
+}
