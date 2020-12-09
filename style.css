@@ -117,16 +117,55 @@ header img {
 
 .header--button span {
   /* 1. Posicionamiento */
+  /* 2. Modelo de caja (Box model) */
   display: inline-block;
   width: 13px;
   height: 8px;
   margin-left: 10px;
-  background-image: url('./assets/icons/down-arrow.svg');
-  /* 2. Modelo de caja (Box model) */
-
   /* 3. Tipografía */
 
   /* 4. Visuales (diseño) */
+  background-image: url('./assets/icons/down-arrow.svg');
 
+  /* 5. Otros */
+}
+/*----------- seccion intercambio -----------*/
+main {
+  /* 1. Posicionamiento */
+
+  /* 2. Modelo de caja (Box model) */
+  width: 100%;
+  height: auto;
+  /* 3. Tipografía */
+
+  /* 4. Visuales (diseño) */
+  background: var(--off-white);
+  /* 5. Otros */
+}
+
+.main-exchange-container {
+  /* 1. Posicionamiento */
+
+  /* 2. Modelo de caja (Box model) */
+  width: 100%;
+  height: auto;
+  padding-top: 80px;
+  padding-bottom: 30px;
+  /* 3. Tipografía */
+  text-align: center;
+
+  /* 4. Visuales (diseño) */
+
+  /* 5. Otros */
+}
+.main-exchange-container__title {
+  /* 1. Posicionamiento */
+  /* 2. Modelo de caja (Box model) */
+  width: 90%;
+  min-width: 288px;
+  max-width: 900px;
+  margin: 0 auto;
+  /* 3. Tipografía */
+  /* 4. Visuales (diseño) */
   /* 5. Otros */
 }
