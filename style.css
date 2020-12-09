@@ -35,25 +35,58 @@ header {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  /* 2. Modelo de caja (Box model) */
   width: 100%;
   min-width: 320px;
   height: 334px;
   text-align: center;
+
+  /* 4. */
+  background: linear-gradient(207.8deg, #201e1c 16.69%, #f7931a 100%);
 }
 
 header img {
+  /* 1. Posicionamiento */
+  align-self: center;
+  /* 2. Modelo de caja (Box model) */
   width: 150px;
   height: 24px;
   margin-top: 60px;
-  align-self: center;
 }
 
 .header--title-container {
+  /* 1. Posicionamiento */
+  text-align: center;
+  align-self: center;
+  /* 2. Modelo de caja (Box model) */
   width: 90%;
   min-width: 288px;
   max-width: 900px;
   height: 218px;
   margin-top: 40px;
-  text-align: center;
-  align-self: center;
+}
+
+.header--title-container h1 {
+  /* 1. Posicionamiento */
+  /* 2. Modelo de caja (Box model) */
+  /* 3. Tipografía */
+  font-size: 2.4rem;
+  font-weight: bold;
+  line-height: 2.6rem;
+  /* 4. Visuales (diseño) */
+  color: var(--just-white);
+  /* 5. Otros */
+}
+
+.header--title-container p {
+  /* 1. Posicionamiento */
+  /* 2. Modelo de caja (Box model) */
+  margin-top: 25px;
+  /* 3. Tipografía */
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 1.8rem;
+  /* 4. Visuales (diseño) */
+  color: var(--soft-orange);
+  /* 5. Otros */
 }
